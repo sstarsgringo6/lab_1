@@ -81,4 +81,8 @@ public class Utente {
 		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
 				+ peso + "]";
 	}
+	
+	public double calcularImc() {
+		return peso/(altura * altura);
+		}
 }
