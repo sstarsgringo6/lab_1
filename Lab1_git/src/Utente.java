@@ -75,4 +75,10 @@ public class Utente {
 	public String getGenero() {
 		return genero;
 	}
+
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
 }
